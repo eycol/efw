@@ -1,0 +1,14 @@
+{
+  "require" : {
+    "facebook/php-sdk-v4" : "4.0.*",
+    "imagine/imagine": "dev-master"
+  },
+  "autoload":{
+    "classmap": [
+      "app/Core"
+    ],
+    "psr-0": {
+      "Controllers":"app/Controllers"
+    }
+  }
+}
